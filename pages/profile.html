@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/profile.css">
+    <title>Profile</title>
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <div class="nav">
+        <h2>edureka</h2>
+        <ul id="items">
+            <li><a href="home.html">Home</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction()">Learn
+                        <i class='bx bxs-down-arrow'></i>
+                      </button>
+                      <div class="dropdown-content" id="myDropdown">
+                        <a href="roadmaps.html">Roadmaps</a>
+                        <a href="tutorials.html">Courses</a>
+                        <a href="quizz.html">Quiz</a>
+                      </div>
+                </div>
+            </li>
+            <li><a href="redeem.html">Redeem</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="profile.html">profile</a></li>
+            
+            <li>
+                <div>
+                    <button class="logout-btn" onclick="logOut()">Logout</button>
+                </div>
+            </li>
+        </ul>
+        <i id="bar" class='bx bx-menu-alt-right' ></i>
+    </div>
+    <!-- navbar ends -->
+
+    <div class="profile-hero">
+        <div class="row">
+            <img src="../images/profile.png" alt="user">
+            <div class="info">
+                <h3>User Name</h3>
+                <p><b>Coins Earned : </b>00</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="basic-container">
+        <h3>Basic Info</h3>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td contenteditable="true">User Name</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td contenteditable="true">enter your gender</td>
+            </tr>
+            <tr>
+                
+               <td>Location</td>
+                <td contenteditable="true">your loaction</td>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td contenteditable="true">your birthday date</td>
+            </tr>
+            <tr>
+                <td>Website</td>
+                <td contenteditable="true">link of your website</td>
+            </tr>
+            <tr>
+                <td>Linkedin</td>
+                <td contenteditable="true">link of your linkedin profile</td>
+            </tr>
+            <tr>
+                <td>Github</td>
+                <td contenteditable="true">link of your github profile</td>
+            </tr>
+        </table>
+        <h3>Experince</h3>
+        <table>
+            <tr>
+                <td>Work</td>
+                <td contenteditable="true">enter your work experince if any</td>
+            </tr>
+            <tr>
+                <td>Education</td>
+                <td contenteditable="true">enter your education if any</td>
+            </tr>
+        </table>
+        <h3>Skills</h3>
+        <table>
+            <tr>
+                <td>Technical Skills</td>
+                <td contenteditable="true">enter your technical skills</td>
+            </tr>
+        </table>
+        <button id="save">SAVE</button>
+    </div>
+
+    <script src="../script/navbar.js"></script>
+    <script>
+        const save=  document.querySelector("#save");
+        save.addEventListener("click", function(){
+            alert("information updated.");
+        });
+    </script>
+</body>
+
+</html>

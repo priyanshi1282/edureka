@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <div class="nav">
+        <h2>edureka</h2>
+        <ul id="items">
+            <li><a href="home.html">Home</a></li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="myFunction()">Learn
+                        <i class='bx bxs-down-arrow'></i>
+                      </button>
+                      <div class="dropdown-content" id="myDropdown">
+                        <a href="roadmaps.html">Roadmaps</a>
+                        <a href="tutorials.html">Courses</a>
+                        <a href="quizz.html">Quiz</a>
+                      </div>
+                </div>
+            </li>
+            <li><a href="redeem.html">Redeem</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="profile.html">profile</a></li>
+            
+            <li>
+                <div>
+                    <button class="logout-btn" onclick="logOut()">Logout</button>
+                </div>
+            </li>
+        </ul>
+        <i id="bar" class='bx bx-menu-alt-right' ></i>
+    </div>
+    <!-- navbar ends -->
+
+
+    <div class="home-container">
+        <div class="left">
+            <h1>New User Guide</h1>
+            <p>Kindly go through our user guide for information on how <br>quest participation, review, payments, events and exp system works.
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, culpa.
+                <br>
+                Lorem ipsum dolor sit amet.
+            </p>
+            <button class="btn">
+               <a href="help.html"> Go to Guide </a>
+            </button>
+        </div>
+        <div class="right">
+            <img src="../images/mobile.png" alt="">
+        </div>
+    </div>
+
+    <div class="explore">
+        <h1>Explore</h1>
+        <div class="container">
+            <div class="card card1">
+                <h2>Tutorials</h2>
+                <p>We offer a huge amount of tutorials and courses based on your chosen domain. Learn from top-rated resources and upskill yourself from achieving goals.</p>
+                <button>
+                    <a href="tutorials.html">
+                        View
+                    </a>
+                </button>
+            </div>
+            <div class="card card2">
+                <h2>Roadmaps</h2>
+                <p>Roadmaps are the best way to create a perfect vision of what coming next.Explore the roadmaps and chose the domain wisely.</p>
+                <button>
+                    <a href="#">
+                        View
+                    </a>
+                </button>
+            </div>
+            <div class="card card3">
+                <h2>Practice</h2>
+                <p>Skill comes from consistent and deliberate practice!
+                    Practice yourself by solving questions and quizes to check out your progress.
+                    </p>
+                <button>
+                    <a href="#">
+                        View
+                    </a>
+                </button>
+            </div>
+            <div class="card card4">
+                <h2>Quiz</h2>
+                <p>Improve your progress with sme catchy quizes and get a chance to win some exclusive rewards!!!</p>
+                <button>
+                    <a href="quizz.html">
+                        View
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script/navbar.js"></script>
+</body>
+
+</html>
