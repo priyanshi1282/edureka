@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/course.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Course</title>
+</head>
+
+<body>
+    <div class="courses">
+                                    <!-- navabar -->
+        <div class="nav">
+            <h2>edureka</h2>
+            <ul id="items">
+                <li><a href="home.html">Home</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn" onclick="myFunction()">Learn
+                            <i class='bx bxs-down-arrow'></i>
+                            </button>
+                            <div class="dropdown-content" id="myDropdown">
+                            <a href="roadmaps.html">Roadmaps</a>
+                            <a href="tutorials.html">Courses</a>
+                            <a href="quizz.html">Quiz</a>
+                            </div>
+                    </div>
+                </li>
+                <li><a href="redeem.html">Redeem</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="profile.html">profile</a></li>
+                
+                <li>
+                    <div>
+                        <button class="logout-btn" onclick="logOut()">Logout</button>
+                    </div>
+                </li>
+            </ul>
+            <i id="bar" class='bx bx-menu-alt-right' ></i>
+        </div>
+
+        <!-- banner -->
+        <div class="banner">
+            <div class="text">
+                <h2 class="heading">javascript</h2>
+                <h5 class="sub-head">From building websites to analyzing data,<br> the choice is yours. Find the best of
+                    the best <br> courses to learn from...</h5>
+            </div>
+            <div class="image">
+                <img height="250px" width="250px" src="../images/Js-banner.png" alt="JavaScript">
+            </div>
+        </div>
+
+
+        <!-- courses -->
+
+        <div class="grid">
+            <div class="grid-head">
+                <h1>Find Best Javascript Tutorials and Courses</h1>
+            </div>
+            <div class="grid_items">
+                <div class="card">
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PL0b6OzIxLPbx-BZTaWu_AF7hsKo_Fvsnf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+  <script src="../script/navbar.js"></script>
+</body>
+
+</html>

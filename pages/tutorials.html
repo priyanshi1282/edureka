@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/tutorials.css">
+    <title>tutorials and Courses</title>
+</head>
+<body>
+    
+
+        <!-- navbar -->
+        
+        <div class="nav">
+            <h2>edureka</h2>
+            <ul id="items">
+                <li><a href="home.html">Home</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn" onclick="myFunction()">Learn
+                            <i class='bx bxs-down-arrow'></i>
+                          </button>
+                          <div class="dropdown-content" id="myDropdown">
+                            <a href="roadmaps.html">Roadmaps</a>
+                            <a href="tutorials.html">Courses</a>
+                            <a href="quizz.html">Quiz</a>
+                          </div>
+                    </div>
+                </li>
+                <li><a href="redeem.html">Redeem</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="profile.html">profile</a></li>
+                
+                <li>
+                    <div>
+                        <button class="logout-btn" onclick="logOut()">Logout</button>
+                    </div>
+                </li>
+            </ul>
+            <i id="bar" class='bx bx-menu-alt-right' ></i>
+        </div>
+        
+        
+
+            <!-- Tutorials section  -->
+            <div class="tutorials">
+                
+                <div class="text">
+                    <h1 class="heading" >Tutorials & Courses</h1>
+                    <p>Are you desperate for learning?<br>
+                        Here's the Best Material awaiting for you,show your determination <br> the knowledgeable world.
+                    </p>
+                </div>
+                <div class=" image">
+                    <img height="500px" width="300px" src="../images/tut2.png" alt="image">
+                </div>
+               
+            </div>
+            
+            <div class="content-cards">
+
+                <!-- search bar -->
+                <div class="search-bar">
+                    <h1 class="sh">Find the Best Programming Courses & Tutorials</h1>
+                    <form action="" class="search-box">
+                        <input type="text" name="q" placeholder="Technology" >
+                        <button type="submit"><i class='bx bx-search-alt'></i></button>
+                    </form>
+                </div>
+
+                        <!-- cards -->
+                <div class="grid">
+                    <div class="grid-items">
+                        <div class="card">
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
+                            <a href="course.html"><img class="card-img" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript"></a>
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="JavaScript"></a>
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"></a>
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"></a>
+                            
+                        </div>
+                        <div class="card">
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Python"></a>
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/Solidity-e6e6e6?style=for-the-badge&logo=solidity&logoColor=black" alt="Solidity"></a>
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next Js"></a>
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SASS"></a>
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="flask"></a>
+                        </div>
+                        <div class="card">
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb"></a>
+                            <a href=""><img class="card-img" src="	https://img.shields.io/badge/Bitcoin-000000?style=for-the-badge&logo=bitcoin&logoColor=white" alt="bitcoin"></a>
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"></a>
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/Rust-e6e6e6?style=for-the-badge&logo=rust&logoColor=black" alt="Rust"></a>
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=black" alt="PHp"></a>
+                        </div>
+                        <div class="card">
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" alt="swift"></a>
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack"></a>
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jquery"></a>
+                            
+                            <a href=""><img class="card-img" src="https://img.shields.io/badge/Xampp-F37623?style=for-the-badge&logo=xampp&logoColor=white" alt="xammp"></a>
+                            <a href=""><img class="card-img" src="	https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue Js"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+    <!-- navbar script -->
+   <script src="../script/navbar.js"></script>
+
+
+</body>
+</html>
