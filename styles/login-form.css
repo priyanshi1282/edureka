@@ -1,0 +1,138 @@
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+    font-family: "Poppins", sans-serif;  
+}  
+body{
+    background-image: linear-gradient(#4A3FC8, #A9A0D0);
+    width: 100wh;
+    height: 100vh;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn{
+    margin-top: 7px;
+}
+
+.left{
+    width: 40%;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    background-color: whitesmoke;
+    padding:35px;
+    border-radius: 20px;
+    width: 440px;
+}
+.bar{
+   display: flex;
+   align-items: center;
+   border: 1px solid black;
+   padding: 10px 20px;
+   color: gray;
+}
+.bar img{
+   height: 30px;
+   margin-right: 10px;
+}
+.bar:hover{
+    background-color: white;
+    color: black;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    outline: none;
+    border: 1px solid black;
+}
+.btn{
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4A3FC8;
+    color: white;
+    /* border: 1px solid white; */
+    border: none;
+}
+.btn:hover{
+    color: #4A3FC8;
+    font-size: 18px;
+    background-color: white;
+    border: 2px solid #4A3FC8;
+}
+#forget-password{
+    text-align: right;
+    padding: 7px 2px;
+    font-style: italic;
+    color: grey;
+}
+#forget-password:hover{
+    color: rgb(53, 52, 52);
+}
+.text-btw-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-style: italic;
+}
+.line{
+    height: 1px;
+    width: 22%;
+    background-color: gray;
+}
+#sign-up{
+    text-align: center;
+}
+#sign-up a{
+    color:#4A3FC8;
+    text-decoration:underline;
+}
+#sign-up a:hover{
+    font-weight: 600;
+    /* color: #130796; */
+}
+
+@media only screen and (max-width: 750px) {
+    body{
+        height: auto;
+        overflow: visible;
+    }
+    .container{
+       flex-direction: column-reverse;
+       /* border: 2px solid white; */
+       padding-top: 50px;
+    }
+    .left,.right{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .right{
+        padding: 20px;
+    }
+    .line{
+        width: 13.9%;
+    }
+    #text-btw-line{
+        font-size: small;
+    }
+    .bar{
+        padding: 5px 10px;
+    }
+}

@@ -1,0 +1,35 @@
+#form-container{
+    padding: 15px 30px !important;
+}
+.checked{
+    background-color: whitesmoke;
+    padding: 0 30px;
+    border-radius: 15px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    display: none;
+}
+.checked img{
+    width: 100px;
+}
+
+.checked button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid #4A3FC8;
+    cursor: pointer;
+}
+.checked button:hover{
+    background-color: #4A3FC8;
+    color: white;
+}
+
+
+@media only screen and (max-width: 450px){
+    #form-container h2{
+        font-size: 22px;
+    }
+}
