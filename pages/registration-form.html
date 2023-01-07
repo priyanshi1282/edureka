@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>create Account</title>
+     <!-- stylesheet -->
+     <link rel="stylesheet" href="../styles/registration-form.css">
+     <link rel="stylesheet" href="../styles/login-form.css">
+</head>
+
+<body>
+     <div class="container">
+          <!-- vector image -->
+          <div class="left">
+               <img src="../images/girl.svg" alt="image">
+          </div>
+          <!-- form begins here -->
+          <div class="right" id="form-container">
+               <h2>Create your Account</h2>
+               <br>
+               <a href="#">
+                    <div class="bar"><img src="../images/google.svg" alt="google"> Continue with Google</div>
+               </a>
+               <br>
+               <a href="#">
+                    <div class="bar"><img src="../images/facebook-blue.svg" alt="facebook"> Continue with Facebook</div>
+               </a>
+               <br>
+               <div class="text-btw-line">
+                    <div class="line"></div>
+                    <span style="padding: 0 5px;">or Sign up with Email</span>
+                    <div class="line"></div>
+               </div>
+               <br>
+               <form onsubmit="signup()">
+                    <label for="fname">First Name*</label>
+                    <br>
+                    <input type="text" name="fname" id="fname" placeholder="Enter First Name*" required>
+                    <br>
+                    <label for="lname">Last Name*</label>
+                    <br>
+                    <input type="text" name="lname" id="lname" placeholder="Enter Last Name*" required>
+                    <br>
+                    <label for="email">Email*</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Enter Email*" required>
+                    <br>
+                    <label for="password">Password*</label>
+                    <br>
+                    <input type="password" name="password" id="password" placeholder="Enter Password*" required>
+                    <br>
+                    <input type="submit" value="Sign-up" class="btn" id="signup-btn" onclick="displayCheck();">
+
+               </form>
+               <br>
+               <hr><br>
+               <p id="sign-up">Already have an Account? <a href="login-form.html"> Log-in </a>
+               <br>
+               * fields are mandatory
+               </p>
+          </div>
+          <!-- form ends here -->
+
+          <!-- after signup container begins -->
+          <div class="checked" id="checked">
+              <img src="../images/check.svg" alt="confirm image">
+              <h2>Account created Successfully!</h2>
+              <p>Go to Dashboard</p>
+              <a href="login-form.html"><button>Sign-In</button></a>
+          </div>
+          <!-- after signup container ends -->
+     </div>
+
+     <!-- script link here -->
+     <script src="../script/registration-form.js"></script>
+     <script src="../script/main.js"></script>
+</body>
+
+</html>

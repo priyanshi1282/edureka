@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Login</title>
+
+     <!-- stylesheet -->
+     <link rel="stylesheet" href="../styles/login-form.css">
+</head>
+
+<body>
+     <div class="container">
+          <!-- vector image -->
+          <div class="left">
+               <img src="../images/girl.svg" alt="image">
+          </div>
+          <!-- login form starts here -->
+          <div class="right">
+               <h2>Login</h2>
+               <br>
+               <a href="#">
+                    <div class="bar"><img src="../images/google.svg" alt="google"> Sign in with Google</div>
+               </a>
+               <br>
+               <a href="#">
+                    <div class="bar"><img src="../images/facebook-blue.svg" alt="facebook"> Sign in with Facebook</div>
+               </a>
+               <br>
+               <div class="text-btw-line">
+                    <div class="line"></div>
+                    <span style="padding: 0 5px;"> or Sign in with Email </span>
+                    <div class="line"></div>
+               </div>
+               <br>
+               <form name="loginForm" method="post">
+                    <label for="email">Email*</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Enter Email*" required>
+                    <br><br>
+                    <label for="password">Password*</label>
+                    <br>
+                    <input type="password" name="password" id="password" placeholder="Enter Password*" required>
+                    <a href="#">
+                         <p id="forget-password">Forget Password?</p>
+                    </a>
+                    <br>
+                    <input type="button" name="log" id="login-btn" value="Login" class="btn"  onclick="loginFunction()">
+
+               </form>
+               <br>
+               <hr><br>
+               <p id="sign-up">Do not have an account? <a href="registration-form.html"> Sign-up </a>
+               <br><br>
+               * fields are mandatory
+               </p>
+          </div>
+
+          <!-- form ends here -->
+     </div>
+     <script src="../script/main.js"></script>
+</body>
+
+</html>
