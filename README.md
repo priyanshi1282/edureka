@@ -1,7 +1,7 @@
 <h1 align="center">edureka</h1>
 
 # About❓
-DIGIBins is a medium of communication between the people of the city (users) and government. It is a platform where users can track , request and find garbage vans for cleanliness purposes. Through this app every user can contribute their bit in this righteous act of ‘SWACHH BHARAT ABHIYAN’ initiated by our Hon’ble prime minister Shri Narenda Modi. 
+edureka is a learning website which helps user to explore the courses of their particular domain. Roadmaps are provided for the ease of user to clearly visualize the next steps for their particular course. Tutorials are provided for learning the course and with the help of giving quizes one can improve and check the progress. User can earn the goodies by reedeming the coins which they will earn by participating and correctly attempting the quiz.
 
 # Features⚡
 
