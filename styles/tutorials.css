@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    width: 100vh;
+    background-color: #fff;
+
+}
+.tutorials {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-width: 95vw;
+    margin: 0px 60px;
+    overflow-x: hidden;
+}
+.text{
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    padding: 0px 70px;
+    width: 50%;
+    height: auto;
+}
+.heading{
+    font-size: 3rem;
+}
+.text .p{
+    font-size: 1.5rem;
+}
+
+.image{
+    width: 50%;
+    padding: 0 8rem;
+}
+
+
+                /* search-bar */
+.search-bar{
+    width: 90vw;
+    margin: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sh{
+    margin-bottom: 2rem;
+}
+.search-box{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px 20px;
+   
+}
+.search-box input{
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+.search-box button {
+    width: 3.5rem;
+    height: 3.5rem;
+    size: 5rem;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+}
+.search-box button i{
+    font-size: 3rem;
+    color: rgb(84, 79, 79);
+}
+
+                                    /* Cards */
+.grid{
+    display: grid;
+    width: 90vw;
+    margin: 10px 50px;
+    
+    
+    
+}
+.grid-items {
+    border-radius: 0.4rem;
+    padding: 0 10rem;
+    
+}
+.card{
+    padding: 20px 0;
+}
+.card a{
+    padding: 20px 20px;
+}
+.card-img{
+   height: 50px; 
+}
+
+.card-img:hover{
+    box-sizing: border-box;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
