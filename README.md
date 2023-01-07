@@ -1,25 +1,27 @@
 <h1 align="center">edureka</h1>
 
 # About❓
-edureka is a learning website which helps user to explore the courses of their particular domain. Roadmaps are provided for the ease of user to clearly visualize the next steps for their particular course. Tutorials are provided for learning the course and with the help of giving quizes one can improve and check the progress. User can earn the goodies by reedeming the coins which they will earn by participating and correctly attempting the quiz.
+DIGIBins is a medium of communication between the people of the city (users) and government. It is a platform where users can track , request and find garbage vans for cleanliness purposes. Through this app every user can contribute their bit in this righteous act of ‘SWACHH BHARAT ABHIYAN’ initiated by our Hon’ble prime minister Shri Narenda Modi. 
 
 # Features⚡
 
-<bold><strong>TRACKING</strong></bold><br>
-This is a system through which a user can track the location of a garbage collection vehicle by entering their location.<br>
+<bold><strong>Turorials & courses</strong></bold><br>
+In this section, User can find various tutorials and courses for varios technologies.
   
-<bold><strong>SMART BIN</strong></bold><br>
-This section will give the location of nearby empty bins.
-Here the use of smart bins will take place, which will provide the info on the space left in them.
+<bold><strong>Take a quiz</strong></bold><br>
+This section contains the quizes for all the technologies.
+By taking quiz Top scorers will recieve the points which they can use in Reedem section.
 
-<bold><strong>REQUEST AREA CLEANING</strong></bold><br>
-Here we will create a form for requesting the cleaning of the area and the location info will be sent to the Nagar Nigam department with the help of it.
+<bold><strong>Reedem</strong></bold><br>
+In this section, User can use their earned points in exchange of goodies and swags.
 
 # Future Updates
 
-<bold><strong>Survey Form</strong></bold><br>In this section, the User can give a survey about the cleanliness of his area which will helpful for the Government to improve the cleanliness of that area.
+<bold><strong>Roadmaps</strong></bold><br>
+In this section, the User can find the various roadmaps for the technologies. Roadmaps will help for the better understanding and guidance in the specific technology.
 
-<bold><strong>Update in Request Area Cleaning</strong></bold><br>An update will be pushed in the Request Area Cleaning in which a ticket will be generated when requesting area cleaning, to track the request.
+<bold><strong>Practice</strong></bold><br>
+In this section, we will prove an platform in which user will get practice problems and can solve them.
 
 
 # Tech-Stack🎓
