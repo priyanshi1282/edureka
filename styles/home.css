@@ -1,0 +1,131 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.home-container {
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  height: 550px;
+  min-height: 550px;
+  background: rgb(133,126,207);
+  background: linear-gradient(99deg, rgba(133,126,207,1) 0%, rgba(205,200,255,1) 67%, rgba(255,255,255,1) 100%);
+  color: white;
+}
+
+.left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 6rem;
+  padding-left: 10rem;
+}
+
+.right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.right img {
+  height: 90%;
+  position: relative;
+transform: rotate(15deg);
+  top: 100px;
+}
+
+.left p{
+    margin: 2rem 0;
+    color: rgb(255, 255, 255);
+}
+
+.left .btn{
+    width: fit-content;
+    padding: 15px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #4A3FC8;
+    transition: .5s ease;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.left .btn:hover{
+    background-color: white;
+    color: #4A3FC8;
+    border: 2px solid #4A3FC8;
+}
+
+.left h1{
+    font-size: 4rem;
+}
+
+.explore{
+    background-color: white;
+    position: relative;
+    padding: 2rem;
+}
+
+.explore h1{
+    color: #4A3FC8;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 500px;
+    border-radius: 10px;
+     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+     padding: 2.5rem;
+     color: white;
+     transition: all 0.2s;
+     margin: 20px;
+}
+
+.card p{
+    margin: 1rem 0;
+}
+ .card:hover{
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+ }
+
+.card button{
+    border-radius: 5px;
+    padding: 7px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .2s ease;
+}
+
+.card button:hover{
+    border: 2px solid #4A3FC8;
+    color: #4A3FC8;
+}
+
+.card1{
+    background: radial-gradient(#1fe4f5, #3fbafe);
+}
+
+.card2{
+    background: radial-gradient(#fbc1cc, #fa99b2);
+}
+
+.card3{
+    background: radial-gradient(#76b2fe, #b69efe);
+}
+
+.card4{
+    background: radial-gradient(#60efbc, #58d5c9);
+}

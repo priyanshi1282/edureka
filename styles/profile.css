@@ -1,0 +1,67 @@
+body{
+    overflow-x: hidden;
+}
+.profile-hero{
+    margin-top: 60px;
+    height: 380px;
+    background-color: rgb(44, 42, 42);
+    color: white;
+    padding: 4rem;
+}
+
+.row{
+    display: flex;
+    position: relative;
+    left: 300px;
+}
+
+.profile-hero img{
+    width: 180px;
+    border-radius: 20px;
+    border: 7px solid white;
+}
+
+.info{
+   padding: 2rem;
+}
+
+.basic-container{
+    width: 60%;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin: auto;
+    padding: 2rem;
+    position: relative;
+    bottom: 4rem;
+    border-radius: 10px;
+    color: rgb(71, 70, 70);
+}
+
+table{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+td{
+    padding: 20px 10px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    font-size: .8rem;
+}
+
+.basic-container button{
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: #4A3FC8;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    transition: .3s ease;
+}
+
+.basic-container button:hover{
+    background-color: white;
+    color: #4A3FC8;
+    border: 2px solid #4A3FC8;
+}
