@@ -1,4 +1,5 @@
-<h1 align="center">Edumate</h1>
+<h1 align="center"> Edumate </h1> 
+<p align="center">Your Education Mate!!<p>
 
 # About❓
 <bold><strong>edumate</strong></bold> is a learning website which helps user to explore the courses of their particular domain. Roadmaps are provided for the ease of user to clearly visualize the next steps for their particular course. Tutorials are provided for learning the course and with the help of giving quizes one can improve and check the progress. User can earn the goodies by reedeming the coins which they will earn by participating and correctly attempting the quiz.
