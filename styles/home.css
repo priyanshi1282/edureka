@@ -3,9 +3,9 @@ a{
     color: inherit;
 }
 .home-container {
+    margin-top: 60px;
   width: 100%;
   display: flex;
-  margin-top: 60px;
   height: 550px;
   min-height: 550px;
   background: rgb(133,126,207);
@@ -65,23 +65,23 @@ transform: rotate(15deg);
 }
 
 .hide{
-    height: 100px;
+    height: 60px;
     width: 100%;
-    background-color: white;
+    background-color: #4A3FC8;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
 .hide a{
     text-decoration: underline;
-    color: #4A3FC8;
 }
 
 .explore{
+    position: relative;
     background-color: white;
-  margin-top: 60px;
     padding: 2rem;
 }
 
