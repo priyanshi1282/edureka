@@ -1,320 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
     <link rel="stylesheet" href="../styles/quizz.css">
     <link rel="stylesheet" href="../styles/navbar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
 </head>
+
 <body>
     <div class="nav">
-        <h2>edumate</h2>
+        <h2>
+            <a href="home.html">Edumate</a>
+        </h2>
         <ul id="items">
-            <li><a href="home.html">Home</a></li>
-            <li>
-                <div class="dropdown">
-                    <button class="dropbtn" onclick="myFunction()">Learn
-                        <i class='bx bxs-down-arrow'></i>
-                      </button>
-                      <div class="dropdown-content" id="myDropdown">
-                        <a href="roadmaps.html">Roadmaps</a>
-                        <a href="tutorials.html">Courses</a>
-                        <a href="quizz.html">Quiz</a>
-                      </div>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Learn
+                    <i class='bx bxs-down-arrow'></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="roadmaps.html">Roadmaps</a>
+                    <a href="tutorials.html">Courses</a>
+                    <a href="quizz.html">Quiz</a>
                 </div>
+            </div>
             </li>
             <li><a href="redeem.html">Redeem</a></li>
             <li><a href="help.html">Help</a></li>
             <li><a href="profile.html">Profile</a></li>
-            
+
             <li>
                 <div>
                     <button class="logout-btn" onclick="logOut()">Logout</button>
                 </div>
             </li>
         </ul>
-        <i id="bar" class='bx bx-menu-alt-right' ></i>
+        <i id="bar" class='bx bx-menu-alt-right'></i>
     </div>
 
+    <br><br><br>
+    <div class="row">
 
+        <div class="quizy">Quizes</div>
 
-        <br><br><br>
-        
+        <div class="our_solution_category">
 
-          <div class="row">
-   
-             <div class="quizy">Quizes</div>
+            <div class="solution_cards_box">
 
-              <div class="our_solution_category">
-
-                <div class="solution_cards_box">     
-
-                    <div class="solution_card">    
-                            <div class="hover_color_bubble"></div>
-                            <div class="so_top_icon">
-                                <img src="../images/c++.png" style="height: 71px; width:71px"   alt="cannot load">
-                            </div>
-
-                           <div class="solu_title">
-                           <h3>C++</h3>
-                           </div>
-
-                           <div class="solu_description">
-                           <p>
-                            C++ is a high-performance programming language that is used for creating a wide range of applications, including operating systems, web browsers, and more.
-                           </p>
-                             <a href="quiz_info.html"> 
-                              <button type="button" class="read_more_btn">Attempt quiz</button> 
-                             </a> 
-                            </div>
+                <div class="solution_card">
+                    <div class="hover_color_bubble"></div>
+                    <div class="so_top_icon">
+                        <img src="../images/c++.png" style="height: 71px; width:71px" alt="cannot load">
                     </div>
 
-
-
-
-                    <div class="solution_card">    
-                            <div class="hover_color_bubble"></div>
-                            <div class="so_top_icon">
-                                <img src="../images/python.png" style="height: 56px; width:56px"   alt="cannot load">   
-                            </div>
-
-                           <div class="solu_title">
-                           <h3>Python</h3>
-                           </div>
-
-                           <div class="solu_description">
-                           <p>
-                            Python is a high-level, interpreted programming language that is widely used for web development, artificial intelligence, data analysis, and scientific computing.
-                           </p>
-                           <a href="quiz_info.html"> 
-                            <button type="button" class="read_more_btn">Attempt quiz</button> 
-                           </a>
-                           </div>
+                    <div class="solu_title">
+                        <h3>C++</h3>
                     </div>
 
-
-
-
-                    <div class="solution_card">    
-                        <div class="hover_color_bubble"></div>
-                        <div class="so_top_icon">
-                            <img src="../images/java.png" style="height: 60px; width:60px"   alt="cannot load">
-                        </div>
-            
-                       <div class="solu_title">
-                       <h3>Java</h3>
-                       </div>
-
-                       <div class="solu_description">
-                       <p>
-                        Java is a popular programming language that is specifically designed to be easy to use and run on any device. It is an language that is known for its simplicity, security.
-                       </p>
-                       <a href="quiz_info.html"> 
-                        <button type="button" class="read_more_btn">Attempt quiz</button> 
-                       </a>
-                       </div>
-                    </div> 
-
-
-                  
+                    <div class="solu_description">
+                        <p>
+                            C++ is a high-performance programming language that is used for creating a wide range of
+                            applications, including operating systems, web browsers, and more.
+                        </p>
+                        <a href="quiz_info.html">
+                            <button type="button" class="read_more_btn">Attempt quiz</button>
+                        </a>
+                    </div>
                 </div>
-                <!-- end of column 1 cards -->
-                
 
-
-
-                <div class="solution_cards_box">     
-
-                    <div class="solution_card">    
-                        <div class="hover_color_bubble"></div>
-                        <div class="so_top_icon">
-                            <img src="../images/sqlds.png" style="height: 88px; width:88px"   alt="cannot load">
-                        </div>
-            
-                       <div class="solu_title">
-                       <h3>SQL</h3>
-                       </div>
-
-                       <div class="solu_description">
-                       <p>
-                        SQL (Structured Query Language) is a programming language that is used to manage and manipulate databases. It is specifically designed to work with data stored in RDBMS
-                       </p>
-                       <a href="quiz_info.html"> 
-                        <button type="button" class="read_more_btn">Attempt quiz</button> 
-                       </a>
-                       </div>
+                <div class="solution_card">
+                    <div class="hover_color_bubble"></div>
+                    <div class="so_top_icon">
+                        <img src="../images/python.png" style="height: 56px; width:56px" alt="cannot load">
                     </div>
 
-
-
-
-                    <div class="solution_card">
-                        <div class="hover_color_bubble"></div>
-                        <div class="so_top_icon">
-                            <img src="../images/react.png" style="height: 60px; width:60px"   alt="cannot load">
-                        </div>
-
-                       <div class="solu_title">
-                       <h3>React Js</h3>
-                       </div>
-           
-                       <div class="solu_description">
-                       <p>
-                        React is a JavaScript library for building user interfaces. It is often used for building single-page applications and mobile applications.
-                       </p>    
-                       <a href="quiz_info.html"> 
-                        <button type="button" class="read_more_btn">Attempt quiz</button> 
-                       </a>
-                      </div>
+                    <div class="solu_title">
+                        <h3>Python</h3>
                     </div>
 
+                    <div class="solu_description">
+                        <p>
+                            Python is a high-level, interpreted programming language that is widely used for web
+                            development, artificial intelligence, data analysis, and scientific computing.
+                        </p>
+                        <a href="quiz_info.html">
+                            <button type="button" class="read_more_btn">Attempt quiz</button>
+                        </a>
+                    </div>
+                </div>
 
- 
+                <div class="solution_card">
+                    <div class="hover_color_bubble"></div>
+                    <div class="so_top_icon">
+                        <img src="../images/java.png" style="height: 60px; width:60px" alt="cannot load">
+                    </div>
 
-                        <div class="solution_card">    
-                            <div class="hover_color_bubble"></div>
-                            <div class="so_top_icon">
-                                <img src="../images/sqlds.png" style="height: 88px; width:88px"   alt="cannot load">
-                            </div>
-                
-                           <div class="solu_title">
-                           <h3>SQL</h3>
-                           </div>
-    
-                           <div class="solu_description">
-                           <p>
-                            SQL (Structured Query Language) is a programming language that is used to manage and manipulate databases. It is specifically designed to work with data stored in RDBMS
-                           </p>
-                           <a href="quiz_info.html"> 
-                            <button type="button" class="read_more_btn">Attempt quiz</button> 
-                           </a>
-                           </div>
-                        </div>
+                    <div class="solu_title">
+                        <h3>Java</h3>
+                    </div>
 
+                    <div class="solu_description">
+                        <p>
+                            Java is a popular programming language that is specifically designed to be easy to use and
+                            run on any device. It is an language that is known for its simplicity, security.
+                        </p>
+                        <a href="quiz_info.html">
+                            <button type="button" class="read_more_btn">Attempt quiz</button>
+                        </a>
+                    </div>
+                </div>
 
+            </div>
+            <!-- end of column 1 cards -->
 
-                  
+            <div class="solution_cards_box">
+
+                <div class="solution_card">
+                    <div class="hover_color_bubble"></div>
+                    <div class="so_top_icon">
+                        <img src="../images/sqlds.png" style="height: 88px; width:88px" alt="cannot load">
+                    </div>
+
+                    <div class="solu_title">
+                        <h3>SQL</h3>
+                    </div>
+
+                    <div class="solu_description">
+                        <p>
+                            SQL (Structured Query Language) is a programming language that is used to manage and
+                            manipulate databases. It is specifically designed to work with data stored in RDBMS
+                        </p>
+                        <a href="quiz_info.html">
+                            <button type="button" class="read_more_btn">Attempt quiz</button>
+                        </a>
+                    </div>
                 </div>
 
 
-
-
-               <!-- start of column 2 cards -->
-                <div class="solution_cards_box sol_card_top_3">
-                  
-                  
-                        <div class="solution_card">
-                                 <div class="hover_color_bubble"></div>
-                                 <div class="so_top_icon">
-                                    <img src="../images/github.jpg" style="height: 170px; width:170px"   alt="cannot load">
-                                 </div>
-
-                                <div class="solu_title">
-                                <h3>Github</h3>
-                                </div>
-                    
-                                <div class="solu_description">
-                                <p>
-                                    GitHub is a web-based platform that enables users to host and review code, manage projects, and build software. Most popular tool among developers.
-                                </p>    
-                                <a href="quiz_info.html"> 
-                                    <button type="button" class="read_more_btn">Attempt quiz</button> 
-                                   </a>
-                               </div>
-                        </div>
-
-
-
-
-                  <div class="solution_card">
-                                 <div class="hover_color_bubble"></div>
-                                 <div class="so_top_icon">
-                                    <img src="../images/flutter.png" style="height: 58px; width:58px"   alt="cannot load">
-                                 </div>
-
-                                <div class="solu_title">
-                                <h3>Flutter</h3>
-                                </div>
-                    
-                                <div class="solu_description">
-                                <p>
-                                    Flutter is a mobile application development framework created by Google. It allows developers to build natively compiled applications for mobile, web, and desktop.
-                                </p>    
-                                <a href="quiz_info.html"> 
-                                    <button type="button" class="read_more_btn">Attempt quiz</button> 
-                                </a>
-                               </div>
+                <div class="solution_card">
+                    <div class="hover_color_bubble"></div>
+                    <div class="so_top_icon">
+                        <img src="../images/react.png" style="height: 60px; width:60px" alt="cannot load">
                     </div>
 
-
-
-
-
-                    <div class="solution_card">
-                        <div class="hover_color_bubble"></div>
-                        <div class="so_top_icon">
-                            <img src="../images/node.png" style="height: 62px; width:62px"   alt="cannot load">
-                        </div>
-
-                       <div class="solu_title">
-                       <h3>Node Js</h3>
-                       </div>
-           
-                       <div class="solu_description">
-                       <p>
-                        Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Allows developers to run JavaScript on the server side, enabling the creation of applications.
-                       </p>    
-                       <a href="quiz_info.html"> 
-                        <button type="button" class="read_more_btn">Attempt quiz</button> 
-                       </a>
-                      </div>
+                    <div class="solu_title">
+                        <h3>React Js</h3>
                     </div>
 
-
-                     
-
-
+                    <div class="solu_description">
+                        <p>
+                            React is a JavaScript library for building user interfaces. It is often used for building
+                            single-page applications and mobile applications.
+                        </p>
+                        <a href="quiz_info.html">
+                            <button type="button" class="read_more_btn">Attempt quiz</button>
+                        </a>
+                    </div>
                 </div>
-              <!-- end of column 2 -->
-                 
 
-              </div>
-           
+
+                <div class="solution_card">
+                    <div class="hover_color_bubble"></div>
+                    <div class="so_top_icon">
+                        <img src="../images/sqlds.png" style="height: 88px; width:88px" alt="cannot load">
+                    </div>
+
+                    <div class="solu_title">
+                        <h3>SQL</h3>
+                    </div>
+
+                    <div class="solu_description">
+                        <p>
+                            SQL (Structured Query Language) is a programming language that is used to manage and
+                            manipulate databases. It is specifically designed to work with data stored in RDBMS
+                        </p>
+                        <a href="quiz_info.html">
+                            <button type="button" class="read_more_btn">Attempt quiz</button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- start of column 2 cards -->
+            <div class="solution_cards_box sol_card_top_3">
+
+
+                <div class="solution_card">
+                    <div class="hover_color_bubble"></div>
+                    <div class="so_top_icon">
+                        <img src="../images/github.jpg" style="height: 170px; width:170px" alt="cannot load">
+                    </div>
+
+                    <div class="solu_title">
+                        <h3>Github</h3>
+                    </div>
+
+                    <div class="solu_description">
+                        <p>
+                            GitHub is a web-based platform that enables users to host and review code, manage projects,
+                            and build software. Most popular tool among developers.
+                        </p>
+                        <a href="quiz_info.html">
+                            <button type="button" class="read_more_btn">Attempt quiz</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="solution_card">
+                    <div class="hover_color_bubble"></div>
+                    <div class="so_top_icon">
+                        <img src="../images/flutter.png" style="height: 58px; width:58px" alt="cannot load">
+                    </div>
+
+                    <div class="solu_title">
+                        <h3>Flutter</h3>
+                    </div>
+
+                    <div class="solu_description">
+                        <p>
+                            Flutter is a mobile application development framework created by Google. It allows
+                            developers to build natively compiled applications for mobile, web, and desktop.
+                        </p>
+                        <a href="quiz_info.html">
+                            <button type="button" class="read_more_btn">Attempt quiz</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="solution_card">
+                    <div class="hover_color_bubble"></div>
+                    <div class="so_top_icon">
+                        <img src="../images/node.png" style="height: 62px; width:62px" alt="cannot load">
+                    </div>
+
+                    <div class="solu_title">
+                        <h3>Node Js</h3>
+                    </div>
+
+                    <div class="solu_description">
+                        <p>
+                            Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Allows developers to
+                            run JavaScript on the server side, enabling the creation of applications.
+                        </p>
+                        <a href="quiz_info.html">
+                            <button type="button" class="read_more_btn">Attempt quiz</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- end of column 2 -->
         </div>
+    </div>
 
-
-        <script>
-            var menu = document.getElementById("bar");
-            var item = document.getElementById("items");
-
-            item.style.right = '-300px';
-            menu.onclick = function(){
-                if(item.style.right == '-300px'){
-                    item.style.right = '0';
-                }
-                else{
-                    item.style.right = '-300px';
-                }
-            }
-
-
-            function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-            }
-
-            // Close the dropdown if the user clicks outside of it
-            window.onclick = function(e) {
-            if (!e.target.matches('.dropbtn')) {
-            var myDropdown = document.getElementById("myDropdown");
-                if (myDropdown.classList.contains('show')) {
-                myDropdown.classList.remove('show');
-                }
-            }
-            }
-        </script>
+    <script src="../script/navbar.js"></script>
 </body>
+
 </html>

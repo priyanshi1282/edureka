@@ -6,6 +6,11 @@ body{
 
 }
 
+.reedem1{
+  margin-top: 60px;
+  padding: 20px;
+}
+
 .navbar a{
     text-decoration: none;
     color: white;
@@ -31,7 +36,7 @@ ul.navbar {
     text-decoration: none;
   }
   p{
-    color: #b3b3b3;
+    color: #404040;
     
   }
   main{
@@ -42,10 +47,11 @@ ul.navbar {
     font-weight: 300 !important;
   }
   span{
-    color:#b3b3b3
+    color:#505050
   }
   .reedem1{
-    background-color: black;
+    background: rgb(117, 108, 207);
+    background: linear-gradient(99deg, rgb(90, 80, 192) 0%, rgb(143, 131, 255) 60%);
     height: 25%;
   }
   div.container

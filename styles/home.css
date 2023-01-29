@@ -64,9 +64,24 @@ transform: rotate(15deg);
     font-size: 4rem;
 }
 
-.explore{
+.hide{
+    height: 100px;
+    width: 100%;
     background-color: white;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide a{
+    text-decoration: underline;
+    color: #4A3FC8;
+}
+
+.explore{
+    background-color: white;
+  margin-top: 60px;
     padding: 2rem;
 }
 

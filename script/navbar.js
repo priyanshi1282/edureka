@@ -25,5 +25,5 @@ window.onclick = function (e) {
 };
 
 function logOut(){
-  window.location.href="index.html";
+  window.location.href="../index.html";
 }

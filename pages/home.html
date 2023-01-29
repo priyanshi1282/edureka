@@ -8,6 +8,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../styles/navbar.css">
     <link rel="stylesheet" href="../styles/home.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/png">
     <title>Home</title>
 </head>
 
@@ -15,60 +16,42 @@
 
     <!-- nav bar -->
     <div class="nav">
-        <h2>Edumate</h2>
+        <h2>
+            <a href="home.html">Edumate</a>
+        </h2>
         <ul id="items">
-            <li><a href="home.html">Home</a></li>
-            <li>
                 <div class="dropdown">
                     <button class="dropbtn" onclick="myFunction()">Learn
                         <i class='bx bxs-down-arrow'></i>
-                      </button>
-                      <div class="dropdown-content" id="myDropdown">
+                    </button>
+                    <div class="dropdown-content" id="myDropdown">
                         <a href="roadmaps.html">Roadmaps</a>
                         <a href="tutorials.html">Courses</a>
                         <a href="quizz.html">Quiz</a>
-                      </div>
+                    </div>
                 </div>
             </li>
             <li><a href="redeem.html">Redeem</a></li>
             <li><a href="help.html">Help</a></li>
             <li><a href="profile.html">Profile</a></li>
-            
+
             <li>
                 <div>
                     <button class="logout-btn" onclick="logOut()">Logout</button>
                 </div>
             </li>
         </ul>
-        <i id="bar" class='bx bx-menu-alt-right' ></i>
+        <i id="bar" class='bx bx-menu-alt-right'></i>
     </div>
     <!-- navbar ends -->
-
-
-    <div class="home-container">
-        <div class="left">
-            <h1>New User Guide</h1>
-            <p>Kindly go through our user guide for information on how <br>quest participation, review, payments, events and exp system works.
-                <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, culpa.
-                <br>
-                Lorem ipsum dolor sit amet.
-            </p>
-            <button class="btn">
-               <a href="help.html"> Go to Guide </a>
-            </button>
-        </div>
-        <div class="right">
-            <img src="../images/mobile.png" alt="">
-        </div>
-    </div>
 
     <div class="explore">
         <h1>Explore</h1>
         <div class="container">
             <div class="card card1">
                 <h2>Tutorials</h2>
-                <p>We offer a huge amount of tutorials and courses based on your chosen domain. Learn from top-rated resources and upskill yourself from achieving goals.</p>
+                <p>We offer a huge amount of tutorials and courses based on your chosen domain. Learn from top-rated
+                    resources and upskill yourself from achieving goals.</p>
                 <button>
                     <a href="tutorials.html">
                         View
@@ -77,7 +60,8 @@
             </div>
             <div class="card card2">
                 <h2>Roadmaps</h2>
-                <p>Roadmaps are the best way to create a perfect vision of what coming next.Explore the roadmaps and chose the domain wisely.</p>
+                <p>Roadmaps are the best way to create a perfect vision of what coming next.Explore the roadmaps and
+                    chose the domain wisely.</p>
                 <button>
                     <a href="#">
                         View
@@ -88,7 +72,7 @@
                 <h2>Practice</h2>
                 <p>Skill comes from consistent and deliberate practice!
                     Practice yourself by solving questions and quizes to check out your progress.
-                    </p>
+                </p>
                 <button>
                     <a href="#">
                         View
@@ -105,6 +89,30 @@
                 </button>
             </div>
         </div>
+    </div>
+
+    <div class="home-container">
+        <div class="left">
+            <h1>New User Guide</h1>
+            <p>Kindly go through our user guide for information on how <br>quest participation, review, payments, events
+                and exp system works.
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, culpa.
+                <br>
+                Lorem ipsum dolor sit amet.
+            </p>
+            <button class="btn">
+                <a href="help.html"> Go to Guide </a>
+            </button>
+        </div>
+        <div class="right">
+            <img src="../images/mobile.svg" alt="">
+        </div>
+    </div>
+
+    <!-- html to hide mobile -->
+    <div class="hide">
+        <p>Designed & Developed with ❤ by <a href="team.html" target="_blank"> Team Phantoms </a></p>
     </div>
 
     <script src="../script/navbar.js"></script>
