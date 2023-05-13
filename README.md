@@ -34,9 +34,11 @@ In this section, we will prove an platform in which user will get practice probl
 
 # Our Team
 <img src="https://github.com/priyanshi1282.png" width='100px'> <a href="https://github.com/priyanshi1282" target="_blank">Priyanshi Agrawal</a>
+  
+<img src="https://github.com/gopish12.png" width='100px'> <a href="https://github.com/gopish12" target="_blank">Gopish Mahajan</a>
 
 <img src="https://github.com/Pratigyaagr.png" width='100px'> <a href="https://github.com/Pratigyaagr" target="_blank">Pratigya Agrawal</a>
 
 <img src="https://github.com/ravish036.png" width='100px'> <a href="https://github.com/ravish036" target="_blank">Ravish Satwani</a>
 
-<img src="https://github.com/gopish12.png" width='100px'> <a href="https://github.com/gopish12" target="_blank">Gopish Mahajan</a>
+
