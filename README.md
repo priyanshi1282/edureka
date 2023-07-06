@@ -15,7 +15,7 @@ This section contains the quizes for all the technologies.
 By taking quiz Top scorers will recieve the points which they can use in Reedem section.
 
 <bold><strong>Reedem</strong></bold><br>
-In this section, User can use their earned points in exchange of goodies and swags.
+In this section, User can use their earned points in exchange of goodies and swags. This will motivate user to learn more and earn more.
 
 # Future Updates
 
